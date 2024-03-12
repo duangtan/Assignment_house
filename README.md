@@ -16,4 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 วิธีการ RUN :
-Run ไฟล์ main.dart
+Run ไฟล์ main.dart (main.dart อยู่ใน folder lib)
