@@ -6,4 +6,4 @@ Run ไฟล์ main.dart (main.dart อยู่ใน folder lib)
 2.กดเพิ่มรายชื่อลงในสถาบันที่มีที่คงเหลือที่ปุ่มไอคอนเพิ่ม
 3.ตรวจสอบรายชื่อ ที่ปุ่มตรวจสอบรายชื่อ
 
-ลิงค์ https://assignment-house-ten.vercel.app/
+ลิงค์ : https://assignment-house-ten.vercel.app/
