@@ -101,6 +101,9 @@ class _houseState extends State<house> {
             ElevatedButton(
               child: Text("ยกเลิก"),
               onPressed: () {
+                setState(() {
+                  name.text = '';
+                });
                 Navigator.of(context).pop();
               },
             ),
@@ -134,7 +137,6 @@ class _houseState extends State<house> {
                 name.clear();
                 setState(() {
                   remain2 = remain2! -1;
-                  print(remain2);
                 });
                 Navigator.of(context).pop();
               },
@@ -142,6 +144,9 @@ class _houseState extends State<house> {
             ElevatedButton(
               child: Text("ยกเลิก"),
               onPressed: () {
+                setState(() {
+                  name.text = '';
+                });
                 Navigator.of(context).pop();
               },
             ),
@@ -175,7 +180,6 @@ class _houseState extends State<house> {
                 name.clear();
                 setState(() {
                   remain3 = remain3! -1;
-                  print(remain3);
                 });
                 Navigator.of(context).pop();
               },
@@ -183,6 +187,9 @@ class _houseState extends State<house> {
             ElevatedButton(
               child: Text("ยกเลิก"),
               onPressed: () {
+                setState(() {
+                  name.text = '';
+                });
                 Navigator.of(context).pop();
               },
             ),
@@ -216,7 +223,6 @@ class _houseState extends State<house> {
                 name.clear();
                 setState(() {
                   remain4 = remain4! -1;
-                  print(remain4);
                 });
                 Navigator.of(context).pop();
               },
@@ -224,6 +230,9 @@ class _houseState extends State<house> {
             ElevatedButton(
               child: Text("ยกเลิก"),
               onPressed: () {
+                setState(() {
+                  name.text = '';
+                });
                 Navigator.of(context).pop();
               },
             ),
@@ -394,7 +403,7 @@ class _houseState extends State<house> {
             ElevatedButton(
               onPressed: handleGet,
               style: ElevatedButton.styleFrom(
-                primary: Color(0xFFA00000),
+                backgroundColor: Color(0xFFA00000),
               ),
               child: const Text(
                 'รับ',
