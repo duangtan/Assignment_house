@@ -371,7 +371,7 @@ class _houseState extends State<house> {
               ElevatedButton(
                   onPressed: () => _showListName(context),
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.black, // เปลี่ยนสีพื้นหลังของปุ่มเป็นสีแดง
+                    backgroundColor: Colors.black// เปลี่ยนสีพื้นหลังของปุ่มเป็นสีแดง
                   ),
                   child: Text('ตรวจสอบรายชื่อ',style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.white))
                   ),
