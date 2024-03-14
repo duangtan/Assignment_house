@@ -1,3 +1,4 @@
+ใช้ Android Studio ในการเขียน
 วิธีการ RUN :
 Run ไฟล์ main.dart (main.dart อยู่ใน folder lib)
 
@@ -9,4 +10,4 @@ Run ไฟล์ main.dart (main.dart อยู่ใน folder lib)
 
 3.ตรวจสอบรายชื่อ ที่ปุ่มตรวจสอบรายชื่อ
 
-ลิงค์ : https://assignment-house-ten.vercel.app/
+run web: https://assignment-house-ten.vercel.app/
